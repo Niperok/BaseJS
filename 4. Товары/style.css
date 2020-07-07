@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 32px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.desc {
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table__row {
+    border: 1px solid #000;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 48px;
+    color: black;
+}
+
+.white {
+    background-color: burlywood;
+}
+
+.black {
+    background-color: saddlebrown;
+}
+
+.blackFig {
+    color: black;
+}
+
+.whiteFig {
+    color: white;
+}
