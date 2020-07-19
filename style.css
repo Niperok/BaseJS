@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+td {
+    border: 1px solid #000;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+.number {
+    color: red;
+    font-weight: 600;
+}
+
+.bomb {
+    color: black;
+}
+
+.close {
+    background-color: #999;
+    color: #999;
+}
+
+/* .close::selection {
+    color: #999;
+} */
+
+.blast {
+    color: red;
+}
+
+.flag {
+    position: relative;
+}
+
+.flag-i {
+    position: absolute;
+    color: yellow;
+    top: 2px;
+    left: 3px;
+}
